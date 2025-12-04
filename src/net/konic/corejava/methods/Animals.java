@@ -15,8 +15,6 @@ public class Animals {
 	public static void main(String[] args) {
 		
 		Animals animals=new Animals();
-		animals.num = 10;
-		animals.num1 = 20;
 		animals.All(10, 20);
 	}       
 	
