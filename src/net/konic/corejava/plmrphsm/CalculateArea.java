@@ -11,15 +11,15 @@ public class CalculateArea {
 		System.out.println("Area of rectangle:"+y);
 		return y;
 		}
-	int area ( int p,int q,int r) {
-		double z=
+	void area (double pi, int r ) {
+		double z=pi*r*r;
 		System.out.println("Area of Circle:"+z);		
 	}
 	public static void main(String[] args) {
 		CalculateArea  ca = new CalculateArea();
 		ca.area(5);
 		ca.area(5,10);
-		ca.area(3,14,7);
+		ca.area(3.14,7);
 		
 	}
 
